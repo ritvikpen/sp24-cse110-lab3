@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meeting Minutes</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <h1>Meeting Minutes: Infinite Loop</h1>
+  </header>
+
+  <section>
+    <h2>Meeting Topic: Weekly Standup Meeting</h2>
+    <h3>Date: April 15, 2024</h3>
+    <nav>
+        <ul>
+          <li><a href="#attendance">Attendance</a></li>
+          <li><a href="#agenda">Agenda</a></li>
+          <li><a href="#unfinished-tasks">Unfinished Tasks</a></li>
+          <li><a href="#new-tasks">New Tasks</a></li>
+          <li><a href="#comments">Comments/Questions/Concerns</a></li>
+          <li><a href="#graphics">Graphics</a></li>
+          <li><a href="#audio-recording">Audio Recording</a></li>
+          <li><a href="#video-recording">Video Recording</a></li>
+        </ul>
+      </nav>
+
+    <details>
+        <summary id="attendance"><b>Attendance:</b></summary>
+        <ul>
+            <li>Ritviksiddha Penchala</li>
+            <li>John Doe</li>
+            <li>Jane Smith</li>
+            <li>Alexander Johnson</li>
+        </ul>
+    </details>
+
+    <h3 id="agenda">Agenda:</h3>
+    <ul>
+      <li><u>Review progress on Project</u></li>
+      <li>Discuss upcoming <i>deadlines</i></li>
+      <li>Assign tasks for upcoming week</li>
+    </ul>
+
+    <h3 id="unfinished-tasks">Unfinished Tasks from Last Meeting:</h3>
+    <p><strong>Complete</strong> code review.</p>
+
+    <h3 id="new-tasks">New Tasks:</h3>
+    <p>Discussion on integrating Feature X into Project.</p>
+
+    <h3 id="comments">Comments/Questions/Concerns:</h3>
+    <p>No specific <em>comments.</em></p>
+
+    <h3 id="graphics">Graphics:</h3>
+    <img src="diagram.jpg" alt="Diagram of Project A architecture">
+
+    <!-- Audio Recording -->
+    <h3 id="audio-recording">Audio Recording:</h3>
+    <audio controls>
+      <source src="audio.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+
+    <!-- Video Recording -->
+    <h3 id="video-recording">Video Recording:</h3>
+    <video controls>
+      <source src="video.mp4" type="video/mp4">
+      Your browser does not support the video element.
+    </video>
+
+  </section>
+
+  <footer>
+    <h2>Contact Us</h2>
+
+    <form>
+      <fieldset>
+
+        <legend>Send us a message:</legend>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="phone">Phone:</label>
+        <input type="phone" id="phone" name="phone"><br><br>
+
+        <label for="country">Country:</label>
+        <input list="countries" id="country" name="country">
+        <datalist id="countries">
+            <option value="United States">
+            <option value="Canada">
+            <option value="Mexico">
+            <!-- Add more options as needed -->
+        </datalist><br><br>
+
+        <label for="language">Preferred Language:</label>
+        <select id="language" name="language">
+            <option value="english">English</option>
+            <option value="spanish">Spanish</option>
+            <option value="french">French</option>
+            <!-- Add more options as needed -->
+        </select><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+        <label for="subscribe">Subscribe to newsletter:</label>
+        <input type="checkbox" id="subscribe" name="subscribe"><br><br>
+
+        <label for="contact-preference">Preferred method of contact:</label><br>
+        <input type="radio" id="contact-email" name="contact-preference" value="email">
+        <label for="contact-email">Email</label><br>
+        <input type="radio" id="contact-phone" name="contact-preference" value="phone">
+        <label for="contact-phone">Phone</label><br><br>
+
+        <button type="submit">Submit</button>
+
+      </fieldset>
+    </form>
+  </footer>
+
+</body>
+</html>
