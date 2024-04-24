@@ -5,6 +5,10 @@
     --highlight-color: hsl(60, 100%, 50%);
 }
 
+* {
+    color: black
+}
+
 .red{
     color: red;
 }
@@ -28,4 +32,30 @@ h1{
 
 p{
     color: var(--secondary-color, white);
+}
+
+/* Default font size for mobile devices */
+body {
+    font-size: 16px;
+}
+
+body > h1 {
+    font-size: 100%;
+}
+
+p{
+    font-size: 5mm;
+}
+
+/* Larger font size for desktop devices */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 1em;
+    }
+    body > h1 {
+        font-size: 2rem;
+    }
+    p{
+        font-size: .5cm;
+    }
 }
