@@ -141,3 +141,103 @@ p{
 .underline {
     text-decoration: underline;
 }
+
+/* Display properties */
+.display-none {
+    display: none;
+}
+
+.display-block {
+    display: block;
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+.display-inline > * {
+    display: inline;
+}
+
+/* Sizing properties */
+.size-height {
+    height: 100px;
+}
+
+.size-width {
+    width: 100px;
+}
+
+.size-max-width {
+    max-width: 500px;
+}
+
+.size-min-width {
+    min-width: 300px;
+}
+
+/* Change the color of the links when hovered over */
+a:hover {
+    color: red;
+}
+
+/* Change the color of the links when they are being clicked (active) */
+a:active {
+    color: blue;
+}
+
+/* Attribute Selector */
+a[href="#attendance"] {
+    color: green;
+}
+
+/* Pseudo-class Selector */
+h3:hover {
+    color: red;
+}
+
+/* Selector List */
+nav, .box {
+    background-color: lightgray;
+}
+
+/* Descendant Combinator */
+div ul {
+    list-style-type: circle;
+}
+
+/* Child Combinator */
+div > h3 {
+    text-decoration: underline;
+}
+
+/* General sibling combinator */
+#attendance ~ #agenda {
+    color: blue;
+}
+
+/* Adjacent sibling combinator */
+.box + .box-margin-long {
+    margin-top: 20px;
+}
+
+/* Combining Two Selectors */
+div.box-border {
+    border: 10px dashed red;
+}
+
+.box-margin-long {
+    background-color: lightgray;
+
+    h3 {
+        color: blue;
+    }
+
+    p {
+        color: red;
+    }
+}
+
+fieldset:has(button) {
+    background-color: lightblue;
+}

@@ -71,12 +71,12 @@
     <div class="box-auto-margins">
       <h3 id="graphics">Graphics:</h3>
       <p class="white">Potential landing image for application:</p>
-      <img src="jellyfish.jpg" alt="Jellyish" width="500"> 
+      <img class="display-inline-block" src="jellyfish.jpg" alt="Jellyish" width="500"> 
     </div>  
 
     <!-- Audio Recording -->
-    <div class="box-padding-long">
-      <h3 id="audio-recording">Audio Recording:</h3>
+    <div class="box-padding-long size-height">
+      <h3 id="audio-recording" class="display-block">Audio Recording:</h3>
       <audio controls>
         <source src="audio.m4a" type="audio/mp3">
         Your browser does not support the audio element.
@@ -84,7 +84,7 @@
     </div>
 
     <!-- Video Recording -->
-    <div class="box-padding-long">
+    <div class="box-padding-long size-width">
       <h3 id="video-recording">Video Recording:</h3>
       <video controls>
         <source src="video.mp4" type="video/mp4">
@@ -94,7 +94,9 @@
 
   </section>
 
-  <footer class="grid-container">
+  <h1 class="display-none">HIDDEN ELEMENT!</h1>
+
+  <footer class="grid-container display-inline">
     <h2>Contact Us</h2>
 
     <form>
@@ -102,7 +104,7 @@
 
         <legend>Send us a message:</legend>
 
-        <label for="name">Name:</label>
+        <label for="name" class="size-min-width">Name:</label>
         <input type="text" id="name" name="name"><br><br>
 
         <label for="email">Email:</label>
