@@ -10,6 +10,6 @@ assignees: ritvikpen
 **Feature Description**
 A clear and concise description of what you want to happen.
 
-** Sub Tasks **
-[ ] Task 1
-[ ] Task 2
+**Sub Tasks**
+- [ ] Task 1
+- [ ] Task 2
