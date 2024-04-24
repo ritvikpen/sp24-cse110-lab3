@@ -1,3 +1,31 @@
-p{
+/* This CSS file contains all styling for the index.html file */
+:root {
+    --main-color:color(srgb 0 0 0 0 0 0);
+    --secondary-color:color-mix(in lch, black, white);
+    --highlight-color: hsl(60, 100%, 50%);
+}
+
+.red{
     color: red;
+}
+
+.white{
+    color: #FFFFFF;
+    background-color: black;
+}
+
+.green{
+    color: rgb(0, 128, 0);
+}
+
+#highlight{
+    background-color: var(--highlight-color, yellow);
+}
+
+h1{
+    color: var(--main-color, black);
+}
+
+p{
+    color: var(--secondary-color, white);
 }
