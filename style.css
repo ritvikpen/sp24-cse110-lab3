@@ -1,4 +1,10 @@
 /* This CSS file contains all styling for the index.html file */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 :root {
     --main-color:color(srgb 0 0 0 0 0 0);
     --secondary-color:color-mix(in lch, black, white);
@@ -101,4 +107,37 @@ p{
     border-color: red;
     border-width: 3px;
     border-radius: 10px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+.position-static {
+    position: static;
+}
+
+.position-relative {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.underline {
+    text-decoration: underline;
 }

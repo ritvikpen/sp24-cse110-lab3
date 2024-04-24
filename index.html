@@ -10,27 +10,29 @@
 </head>
 
 <body>
-  <header>
-    <h1 id="highlight">Meeting Minutes: Infinite Loop</h1>
+  <header class="position-relative">
+    <h1 id="highlight" class="underline">Meeting Minutes: Infinite Loop</h1>
   </header>
 
   <section>
-    <h2 class="green">Meeting Topic: Weekly Standup Meeting</h2>
-    <h3 class="red">Date: April 15, 2024</h3>
-    <nav>
-        <ul>
-          <li><a href="#attendance">Attendance</a></li>
-          <li><a href="#agenda">Agenda</a></li>
-          <li><a href="#unfinished-tasks">Unfinished Tasks</a></li>
-          <li><a href="#new-tasks">New Tasks</a></li>
-          <li><a href="#comments">Comments/Questions/Concerns</a></li>
-          <li><a href="#graphics">Graphics</a></li>
-          <li><a href="#audio-recording">Audio Recording</a></li>
-          <li><a href="#video-recording">Video Recording</a></li>
-        </ul>
-      </nav>
+    <div class="flex-container">
+      <h2 class="green">Meeting Topic: Weekly Standup Meeting</h2>
+      <h3 class="red center-text">Date: April 15, 2024</h3>
+      <nav>
+          <ul>
+            <li><a href="#attendance">Attendance</a></li>
+            <li><a href="#agenda">Agenda</a></li>
+            <li><a href="#unfinished-tasks">Unfinished Tasks</a></li>
+            <li><a href="#new-tasks">New Tasks</a></li>
+            <li><a href="#comments">Comments/Questions/Concerns</a></li>
+            <li><a href="#graphics">Graphics</a></li>
+            <li><a href="#audio-recording">Audio Recording</a></li>
+            <li><a href="#video-recording">Video Recording</a></li>
+          </ul>
+        </nav>
+    </div>
 
-    <div class="box-border">
+    <div class="box-border position-static">
       <details>
           <summary id="attendance"><b>Attendance:</b></summary>
           <ul>
@@ -92,7 +94,7 @@
 
   </section>
 
-  <footer>
+  <footer class="grid-container">
     <h2>Contact Us</h2>
 
     <form>
@@ -142,6 +144,8 @@
 
       </fieldset>
     </form>
+
+    <h2>Thank you!</h2>
   </footer>
 
 </body>
